@@ -1,0 +1,123 @@
+@media (max-width: 1199px) {
+
+    /* custom css  */
+    h1 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /*1 custom css  */
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    /*2 Navbar  */
+    .header_wrapper .navbar-brand img {
+        max-width: 67px;
+    }
+
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .navbar-collaaps {
+        margin-top: -2px;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    /*3 Banner  */
+    .banner_wrapper {
+        padding-top: 70px;
+    }
+
+    .banner_wrapper .top-menu .card {
+        height: 200px;
+    }
+
+
+    /* About */
+    .about_wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 5%;
+        padding-bottom: unset;
+    }
+
+    .about_wrapper .card {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 50%px;
+        overflow: hidden; 
+        z-index: 10;
+        right: unset;
+        top: 10px;
+    }
+
+    /* Offers  */
+    .offers_wrapper .card .offer-text {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /* custom css  */
+    h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* Menu  */
+    .menu_wrapper .row {
+        padding-top: 70px;
+    }
+
+    .menu_wrapper .card h3 span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+    /* Offers  */
+    .offers_wrapper .card .offer-text {
+        width: 100%;
+    }
+
+    /* Review  */
+    .review_wrapper .carousel-caption {
+        bottom: 0;
+        /* min-width: 520px; */
+    }
+
+    .review_wrapper .carousel-item {
+        min-height: 460px;
+        min-width: 460px;
+    }
+
+}
